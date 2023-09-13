@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "url": "/api/update",
+  "headers": {
+    "Authorization": "Bearer myToken",
+    "Content-Type": "application/json",
+    "User-Agent": "Cypress/7.0"
+  },
+  "body": {
+    "userId": 123,
+    "data": {
+      "name": "sahand" ,
+      "password": "123456"
+    }
+  }
+}
